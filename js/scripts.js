@@ -1,4 +1,8 @@
 window.addEventListener('DOMContentLoaded', event => {
+    const imgs = ["1", "2", "1", "2", "1", "2", "1", "2", "1", "2"];
+    const random = Math.floor(Math.random() * imgs.length);
+    document.getElementById("id-thought-of-the-day").src = "assets/img/art-programming/" + imgs[random] + ".jpg";
+
     // Navbar shrink function
     var navbarShrink = function () {
         const navbarCollapsible = document.body.querySelector('#mainNav');

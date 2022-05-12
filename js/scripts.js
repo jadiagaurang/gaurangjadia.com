@@ -30,7 +30,6 @@ window.addEventListener("DOMContentLoaded", event => {
             target: "#mainNav",
             offset: 72,
         });
-        console.log(objScrollSpy);
     }
 
     // Collapse responsive navbar when toggler is visible
